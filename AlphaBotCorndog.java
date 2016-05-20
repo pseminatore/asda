@@ -12,7 +12,7 @@ import robocode.util.Utils;
 public class AlphaBotCorndog extends AdvancedRobot {
     /**
      */
-    public int oppEnergy = 100;
+    public int oppEnergy = 100; //this is the starting energy
     public void run() {
         
         setColors(Color.red,Color.black,Color.white); // body,gun,radar
